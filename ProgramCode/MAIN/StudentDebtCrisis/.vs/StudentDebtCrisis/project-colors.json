@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5ea921fe-0cd1-46c0-b74a-f0165541b6ec": {
+      "ProjectGuid": "5ea921fe-0cd1-46c0-b74a-f0165541b6ec",
+      "DisplayName": "StudentDebtCrisis (IFORT)",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "afc3a5de-e594-4a9b-a3ea-b9c77e5dc77f": {
+      "ProjectGuid": "afc3a5de-e594-4a9b-a3ea-b9c77e5dc77f",
+      "DisplayName": "Estimation (IFORT)",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

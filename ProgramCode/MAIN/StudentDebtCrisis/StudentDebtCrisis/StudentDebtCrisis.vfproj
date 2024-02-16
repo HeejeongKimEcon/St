@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{5EA921FE-0CD1-46C0-B74A-F0165541B6EC}">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" Optimization="optimizeFull" Parallelization="true" OpenMP="OpenMPParallelCode" WarnInterfaces="true" Traceback="true" RuntimeChecks="rtChecksNone" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateManifest="false" SubSystem="subSystemConsole" StackReserveSize="512000000" StackCommitSize="216000000" AdditionalDependencies="mkl_intel_lp64.lib mkl_sequential.lib mkl_core.lib AvFRTd.lib ole32.lib oleaut32.lib"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Debug|x64">
+				<Tool Name="VFFortranCompilerTool" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" Parallelization="true" AdditionalIncludeDirectories="C:\Program Files\HDF_Group\HDF5\1.10.7\include;C:\Program Files\HDF_Group\HDF5\1.10.7\include\shared;C:\Program Files\HDF_Group\HDF5\1.10.7\include\static" OpenMP="OpenMPParallelCode" WarnDeclarations="true" WarnUnusedVariables="true" WarnShape="true" Traceback="true" NullPointerCheck="true" BoundsCheck="true" ArrayShapeCheck="true" DescriptorDataTypeCheck="true" DescriptorDataSizeCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" AdditionalLibraryDirectories="C:\Program Files\HDF_Group\HDF5\1.10.7\lib" GenerateDebugInformation="true" SubSystem="subSystemConsole" StackReserveSize="2048000000" StackCommitSize="864000000" LargeAddressAware="addrAwareLarge" AdditionalDependencies="mkl_intel_lp64.lib mkl_sequential.lib mkl_core.lib  legacy_stdio_definitions.lib hdf5_fortran.lib"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration>
+		<Configuration Name="Release|x64">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" Parallelization="true" OpenMP="OpenMPParallelCode" RuntimeLibrary="rtMultiThreadedDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateManifest="false" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release_JK|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" Optimization="optimizeFull" Parallelization="true" OpenMP="OpenMPParallelCode" WarnInterfaces="true" Traceback="true" RuntimeChecks="rtChecksNone" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateManifest="false" SubSystem="subSystemConsole" StackReserveSize="512000000" StackCommitSize="216000000" AdditionalDependencies="mkl_intel_lp64.lib mkl_sequential.lib mkl_core.lib AvFRTd.lib ole32.lib oleaut32.lib"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release_JK|x64">
+				<Tool Name="VFFortranCompilerTool" Parallelization="true" AdditionalIncludeDirectories="C:\Program Files\HDF_Group\HDF5\1.10.7\include;C:\Program Files\HDF_Group\HDF5\1.10.7\include\shared;C:\Program Files\HDF_Group\HDF5\1.10.7\include\static" OpenMP="OpenMPParallelCode" DebugParameter="debugParameterAll" WarnDeclarations="true" WarnUndeclaredExternals="true" WarnUnusedVariables="true" RuntimeChecks="rtChecksNone" NullPointerCheck="true" BoundsCheck="true" ArrayShapeCheck="true" DescriptorDataTypeCheck="true" DescriptorDataSizeCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" AdditionalLibraryDirectories="C:\Program Files\HDF_Group\HDF5\1.10.7\lib" GenerateManifest="false" SubSystem="subSystemConsole" StackReserveSize="2048000000" StackCommitSize="864000000" LargeAddressAware="addrAwareLarge" AdditionalDependencies="mkl_intel_lp64.lib mkl_sequential.lib mkl_core.lib  legacy_stdio_definitions.lib hdf5_fortran.lib"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd;h;inc"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<Filter Name="Lib_Hk">
+		<File RelativePath="..\..\..\Lib_HK\Lib_conshock.f90"/>
+		<File RelativePath="..\..\..\Lib_HK\Lib_grid.f90"/>
+		<File RelativePath="..\..\..\Lib_HK\Lib_inequality.f90"/>
+		<File RelativePath="..\..\..\Lib_HK\Lib_kindset.f90"/>
+		<File RelativePath="..\..\..\Lib_HK\Lib_Rwhdf5.f90"/>
+		<File RelativePath="..\..\..\Lib_HK\Lib_sort.f90"/></Filter>
+		<File RelativePath="..\..\Get_Params.f90"/>
+		<File RelativePath="..\..\StdDebtCrisis.f90"/>
+		<File RelativePath="..\..\StdDebtCrisis_mod.f90"/>
+		<File RelativePath="..\..\steadystate_solve.f90"/>
+		<File RelativePath="..\..\transition_solve.f90"/></Filter></Files>
+	<Globals/></VisualStudioProject>
